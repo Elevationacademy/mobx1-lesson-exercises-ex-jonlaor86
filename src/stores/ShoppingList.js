@@ -1,7 +1,7 @@
 import { observable, action } from 'mobx'
 import { Item } from './Item'
 
-
+@observable
 export class ShoppingList {
     // your code here
     list = [];
