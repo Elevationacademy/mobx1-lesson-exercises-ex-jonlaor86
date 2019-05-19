@@ -7,3 +7,14 @@ export class Item {
         this.name = name
     }
 }
+@observer
+class Item extends Component {
+    // other methods
+    render() {
+        let item = this.props.item
+        return (
+            <div> {item.name} </div>)
+    }
+}
+
+export default Item
